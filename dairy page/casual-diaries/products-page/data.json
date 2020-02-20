@@ -1,0 +1,100 @@
+var data=[{
+	id:1,
+	title:"Decent Dairy",
+	price:"Rs.600/-",
+	des:"Decent sky-blue notebook for causual use availiable in different sizes",
+	 
+	
+},
+
+		  {
+	id:3,
+	title:"Flower Printed Dairy",
+	price:"Rs.600/-",
+	des:"Notebook with printed flowers for causual use availiable in different sizes and colors",
+	 
+	
+},
+		  {
+	id:2,
+	title:"Fancy Dairy",
+	price:"Rs.900/-",
+	des:"Fancy Golden notebook for causual use availiable in different sizes.",
+	 
+	
+},
+		  {
+	id:4,
+	title:"Printed Green Gift set",
+	price:"Rs.1200/-",
+	des:"Plant printed gift set: card + notebook. best for gifting and using",
+	 
+	
+},
+		  {
+	id:5,
+	title:"Printed minimouse Gift set",
+	price:"Rs.1200/-",
+	des:"minimouse printed gift set: card + notebook. best for gifting and using",
+	 
+	
+},
+		  {
+	id:6,
+	title:"Printed flower Gift set",
+	price:"Rs.1200/-",
+	des:"flower printed gift set: card + notebook. best for gifting and using",
+	 
+	
+},
+		  {
+	id:7,
+	title:"Printed black Gift set",
+	price:"Rs.1200/-",
+	des:"Black Pattern printed gift set: card + notebook. best for gifting and using",
+	 
+	
+},
+		  {
+	id:8,
+	title:"Simple  blue Gift set",
+	price:"Rs.1200/-",
+	des:">Decent Blue and white gift set: card + notebook. best for gifting and using",
+	 
+	
+},
+		  {
+	id:9,
+	title:"Decent ship Dairy",
+	price:"Rs.500/-",
+	des:"This is decent notebook with printed ships available in different sizes and colors.",
+	 
+	
+},{
+	id:10,
+	title:"Golden Umbrella Dairy",
+	price:"Rs.700/-",
+	des:"Umbrella printed golden fancy notebooks available in different sizes.",
+	 
+	
+},
+		  {
+	id:11,
+	title:"Golden Cloud dairy",
+	price:"Rs.700/-",
+	des:"Cloud printed golden fancy notebooks available in different sizes.",
+	 
+	
+},
+		  {
+	id:12,
+	title:"Secret Dairy",
+	price:"Rs.600/-",
+	des:"Cute secret notebooks avaliable in different colors and patterns.",
+	 
+	
+},
+
+		 
+		 
+		 ];

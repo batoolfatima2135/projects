@@ -1,0 +1,101 @@
+var data=[{
+	id:1,
+	title:"Dotted dairy",
+	price:"Rs.600/-",
+	des:"Fomic high quality dairy for office use available in different colors",
+	 
+	
+},
+
+		  {
+	id:2,
+	title:"Decent office Dairy",
+	price:"Rs.400/-",
+	des:"Decent pink dairy suitable for office use available in different sizes.",
+	 
+	
+},
+		  {
+	id:3,
+	title:"Cream 2020 Dairy",
+	price:"Rs.800/-",
+	des:"Cream colored 2020 Dairy suitable for office use available in different sizes .",
+	 
+	
+},
+		  {
+	id:4,
+	title:"Textured dairy",
+	price:"Rs.900/-",
+	des:"Grey colored amazing textured dairy for office use available in different sizes.",
+	 
+	
+},
+		  {
+	id:5,
+	title:"Decent tree dairy",
+	price:"Rs.700/-",
+	des:"Decent tree Dairies available in different sizes and colors",
+	 
+	
+},
+		  {
+	id:6,
+	title:"plain simple Dairy",
+	price:"Rs.600/-",
+	des:"Plain dairy suitable for office use available in different sizes and colors.",
+	 
+	
+},
+		  {
+	id:7,
+	title:"Locking dairy",
+	price:"Rs.900/-",
+	des:"plain locking dairy suitable for many purposes and available in different colors and sizes",
+	 
+	
+},
+		  {
+	id:8,
+	title:"Red journal dairy",
+	price:"Rs.600/-",
+	des:"Red colored office diary with lock available in different sizes.",
+	 
+	
+},
+		  {
+	id:9,
+	title:"Rover Dairy",
+	price:"Rs.800/-",
+	des:"Rover dairies with logo suitable for office use available in different colors.",
+	 
+	
+},
+		  {
+	id:10,
+	title:"Dotted Blue Dairy",
+	price:"Rs.600/-",
+	des:"Blue colored dairy with dots for year 2k19 and 2k20",
+	 
+	
+},
+		  {
+	id:11,
+	title:"Hello 2020 Dairy",
+	price:"Rs.800/-",
+	des:"dairy with printed Hello 2020 suitable for office use available in different colors.",
+	 
+	
+},
+		  {
+	id:12,
+	title:"Grey Simple Dairy",
+	price:"Rs.400/-",
+	des:"Grey smooth and simple dairy for office use available in different sizes.",
+	 
+	
+},
+
+		 
+		 
+		 ];

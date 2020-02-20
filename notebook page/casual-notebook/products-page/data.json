@@ -1,0 +1,99 @@
+var data=[{
+	id:1,
+	title:"Fatty notebook",
+	price:"Rs.600/-",
+	des:"Cute Fatty art printed notebook for casual use available in different sizes."
+
+	
+},
+
+		  {
+	id:2,
+	title:"Sky notebook",
+	price:"Rs.600/-",
+	des:"Cute hope in the sky art printed notebook for casual use available in different sizes."
+
+	
+},
+		  {
+	id:3,
+	title:"Cat notebook",
+	price:"Rs.600/-",
+	des:"Cute stay AWAY Cat art printed notebook for casual use available in different sizes"
+
+	
+},
+		  {
+	id:4,
+	title:"happy suicide notebook",
+	price:"Rs.600/-",
+	des:"Cute happy suicide printed art printed notebook for casual use available in different sizes."
+
+	
+},
+		  {
+	id:5,
+	title:"Dream  notebook",
+	price:"Rs.600/-",
+	des:"Cute Dream art printed notebook for casual use available in different sizes."
+	
+	
+},
+		  {
+	id:6,
+	title:"Star Wars notebook",
+	price:"Rs.700/-",
+	des:"Cute Star Wars  art printed notebook for casual use available in different sizes."
+	
+	
+},
+		  {
+	id:7,
+	title:"Love notebook",
+	price:"Rs.600/-",
+	des:"Cute Love art heart printed notebook for casual use available in different sizes."
+	
+	
+},
+		  {
+	id:8,
+	title:"Graduation notebook",
+	price:"Rs.800/-",
+	des:"Cute Graduation Cap printed notebook for casual use available in different sizes."
+	
+	
+},
+		  {
+	id:9,
+	title:"Friendship notebook",
+	price:"Rs.600/-",
+	des:"Cute friendship art printed notebook for casual use available in different sizes."
+	
+	
+},{
+	id:10,
+	title:"Dream Inspire notebook",
+	price:"Rs.700/-",
+	des:"Cute Dream Inspire printed notebook for inspiring and casual use available in different sizes."
+	
+	
+},
+		  {
+	id:11,
+	title:"Congrats notebook",
+	price:"Rs.600/-",
+	des:"Cute  giving congrates printed notebook for casual use available in different sizes."
+	
+},
+		  {
+	id:12,
+	title:"Face Painting notebook",
+	price:"Rs.800/-",
+	des:"Cute painting art printed notebook for casual use available in different sizes."
+	
+	
+},
+
+		 
+		 
+		 ];

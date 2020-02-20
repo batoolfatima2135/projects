@@ -1,0 +1,100 @@
+var data=[{
+	id:1,
+	title:"Simple Geometry Box",
+	price:"Rs.800/-",
+	des:"Geometry Box Divide In Portions And Easy To Carry.",
+	
+	
+},
+
+		  {
+	id:2,
+	title:"Amazing Spacefull Geometry",
+	price:"Rs.900/-",
+	des:"Easy to use and have space to take your small things. ",
+	
+	
+},
+		  {
+	id:3,
+	title:"Cute Geometry",
+	price:"Rs.700/-",
+	des:"Geometry box divided in two portions.",
+	
+	
+},
+		  {
+	id:4,
+	title:"cute unicorn pencil holder",
+	price:"Rs.700/-",
+	des:"Suitable for your table and look amazing.",
+	
+	
+},
+		  {
+	id:5,
+	title:"cutie cat face pencil holder",
+	price:"Rs.900/-",
+	des:"Soft pencil holderfor your table and look amazing.",
+	
+	
+},
+		  {
+	id:6,
+	title:"smilie pencilbox",
+	price:"Rs.900/-",
+	des:"Cute plastic small pencilbox avaliable in different colors",
+	
+	
+},
+		  {
+	id:7,
+	title:"Decent simple penholder",
+	price:"Rs.500/-",
+	des:"Simple and decent pencil box for office and casual use",
+	
+	
+},
+		  {
+	id:8,
+	title:"Wooden holder",
+	price:"Rs.950/-",
+	des:"Different portions wooden holder for multi purpose",
+	
+	
+},
+		  {
+	id:9,
+	title:"Wooden divided holder",
+	price:"Rs.1500/-",
+	des:"Wooden multi-purpose pencil holder with drawer and more space",
+	
+	
+},{
+	id:10,
+	title:"Leather Holder",
+	price:"Rs.950/-",
+	des:"Leather made pencil and pen holder for office use",
+	
+	
+},
+		  {
+	id:11,
+	title:"netted holder",
+	price:"Rs.550/-",
+	des:"steel netted pencil holder best for your office table.",
+	
+	
+},
+		  {
+	id:12,
+	title:"wooden square holder",
+	price:"Rs.530/-",
+	des:"Simple wooden pen holder for home and casual use.",
+	
+	
+},
+
+		 
+		 
+		 ];

@@ -1,0 +1,265 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Others</title>
+<link href="../../kids page/kids calender/products-page/kid-calnder.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../../links/bootstrap.css">
+<script src="../../links/jquery-3.4.1.js"></script>
+<script src="../../links/bootstrap.js"></script>
+	
+<!-------google fonts-------->
+	
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+	 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+	<link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Yantramanav&display=swap" rel="stylesheet">
+	
+	
+	<!-----google fonts---------->
+	
+	<!-------font awesome-------->
+	
+	<link rel="stylesheet" href="../../fontawesome-free-5.10.1-web/css/all.css">
+	<script src="../../fontawesome-free-5.10.1-web/js/all.js"></script>
+	
+	<!-------font awesome-------->
+</head>
+
+<body>
+	
+		 <!-------------- nav bar starts here----------------->
+		
+	
+<nav class="navbar navbar-expand-lg bg-light fixed-top ">
+		
+		<a class="navbar-brand " href="../../index12.html">
+			<img src="../../logo.png" alt="Wallpaper" width="120" class="d-inline-block align-top" ;>
+			<span class="ml-n4 ">Ryana Calenders</span>
+		</a>
+		
+		
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    		
+			<span class="navbar-toggler-icon "><i class="fas fa-sliders-h"></i></span>
+			
+  		</button>
+
+		<!------nav-items------->
+		
+  		<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+			
+			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+     			
+				<li class="nav-item active">
+					<a class="nav-link" href="../../index12.html">Home <span class="sr-only">(current)</span></a>
+				</li>
+				
+     			 <li class="nav-item active">
+       				 <a class="nav-link" href="../../About us/About-us.html">About</a>
+      			 </li>
+				
+      			 <li class="nav-item active dropdown">
+        			<a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
+			
+			<!-------dropdown---------->	 
+					 
+		  			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+         				
+						 <a class="dropdown-item" href="../../calender page/calender.html">Calenders</a>
+          				 <a class="dropdown-item" href="../../dairy page/dairy.html">Dairies</a>
+         				 <a class="dropdown-item" href="../../notebook page/notebook.html">Notebooks</a>
+					 <a class="dropdown-item" href="../../kids page/kids.html">Kids</a>
+						
+          				<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="../../wooden page/wooden.html">Wooden</a>
+          				<a class="dropdown-item" href="../../others page/others.html">Others</a>
+          				
+        			</div>
+					 
+		   <!-------dropdown ends---------->	
+					 
+					 
+     			 </li>
+				
+				
+    
+				 <li class="nav-item active">
+       				 <a class="nav-link " href="../../contact us page/contact-us.html" >Contact Us</a>
+      			 </li>
+    
+				<li class="nav-item active">
+       				 <a class="nav-link " href="../../site map.html" >Site Map</a>
+      			 </li>
+			</ul>
+			
+		<!------nav-items ends here ------->
+			
+			
+		
+		<!---------search area------->
+			
+  		   <form class="form-inline my-2 my-lg-0">
+			  	<input class="form-control mr-sm-2" type="search" placeholder="Search">
+     		    <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+   		  </form>
+			
+		<!---------search area ends here------->
+			
+  	   </div>
+		
+	</nav>
+	
+						<!------------nav ends here---------------->
+	
+		<!------main starts here------>
+	
+	
+		<div class="container ">
+	
+		<div class="row ">
+		
+			<div class="col-md-12">
+				<div class="card mb-3" style="max-width: 100%;">
+  					<div class="row no-gutters align-items-center" id="datademo">
+   						 
+ 		 		 </div>
+ 		 		 <script src="data.json"></script>
+ 		 		 <script>
+					 var url_string = window.location.href;
+					 var url = new URL(url_string);
+					 var id = url.searchParams.get("id");
+					 for(i=0;i<data.length;i++)
+							{
+								if(id==data[i].id){
+									document.getElementById('datademo').innerHTML='<div class="col-md-4"><a href="#"><img src="../extra/'+data[i].id+'.jpg" class="card-img" data-toggle="modal" data-target="#exampleModal" alt="..."></a> </div><div class="col-md-6"><div class="card-body"><h5 class="card-title text-capitalize">'+data[i].title+'</h5><h5 class="card-title">'+data[i].price+'</h5><p class="card-text">'+data[i].des+'</p><h6>color:</h6><br><a class="p-2 color" href="#">black</a><a class="p-2 color" href="#" >Blue</a><a class="p-2 color" href="#" >red</a><br><br><h6>Quantity:</h6><input type="number"><p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p><br><a href="#" class="btn btn-warning mr-3">Add to Cart</a><a class="btn btn-warning" href="download/'+data[i].id+'.docx">Download</a></div></div><div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"><div class="modal-dialog " role="document"><div class="modal-content"><div class="modal-header"> <h5 class="modal-title text-capitalize" >'+data[i].title+'</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div><div class="modal-body text-center"><img  src="../extra/'+data[i].id+'.jpg" class="img-fluid" alt=""></div><div class="modal-footer"><a class="btn btn-warning mr-3" href="#">Add to Cart</a><a class="btn btn-warning" href="download/'+data[i].id+'.docx">Download</a></div></div></div></div>';	
+								}
+								
+							}
+						</script>
+				</div>
+					
+					
+		  </div>
+			</div>
+	</div>
+		
+		 
+		 <!------main ends here------>
+	<!------footer start here------>
+	
+	<footer class="bg-dark mt-5 container-fluid ">
+		
+		
+				
+			<section class="row mt-2 no-gutters">
+				
+				
+				<div class="col-md-3 col-sm-6 col-6">
+				
+					<a href="../../index12.html" class="navbar-brand">
+						<img src="../../logo.png" alt="logo" height="80">
+						<h4 class="ml-3">Ryana Calenders</h4>
+						
+					</a>
+					<h5>little happiness for your desk</h5>
+					<strong>Fun calenders, inspiring notebooks, stunning dairies & many more</strong>
+					<hr>
+				</div>
+				
+				
+				<div class="col-md-2 col-sm-6 col-6 text-center footer-section">
+					
+					<h5 class="footer_heading">Explore</h5>
+					
+					<hr>
+					
+					<ul class="footer_nav">
+						
+						<li>
+							<a href="../../index12.html">Home</a>
+						</li>
+						
+						<li>
+							<a href="../../About us/About-us.html">About</a>
+						</li>
+						
+						<li>
+							<a href="../../calender page/calender.html">Products</a>
+						</li>
+						
+						
+						
+					</ul>
+					
+					<a href="#"  class="icon"><i class="fab fa-lg fa-twitter-square"></i></a>
+					<a href="#" class="icon"><i class="fab fa-lg fa-facebook-square"></i></a>
+					<a href="#" class="icon"><i class="fab fa-lg fa-google-plus-square"></i></a>
+					<a href="#" class="icon"><i class="fas fa-lg  fa-envelope"></i></a>
+					
+					<hr>
+					
+				</div>
+			
+			
+				<div class="col-md-3 text-center col-sm-6 col-6 footer-section ">
+					
+					<h5 class="footer_heading">Contact us</h5>
+					<hr>
+					<strong>Questions? We have got answere. Try us.</strong>
+					<hr>
+					<br>
+					<button class="btn btn-warning">Email Us</button>
+					<hr>
+					
+				</div>
+			
+			
+				<div class="col-md-3 text-center footer-section col-sm-6 col-6 ">
+			
+					<h5 class="footer_heading">Email updates </h5>
+					
+					<hr>
+					<strong>Be the first to hear about our offers</strong>
+					<hr>
+					<br>
+					<form class="form-inline my-2 my-lg-0 ml-5">
+			  			<input class="form-control mr-sm-2 mb-1" type="search" placeholder="Email">
+						<br>
+     		    		<button class="btn btn-outline-warning my-2 my-sm-0 submit mt-1" type="submit">Submit</button>
+   		 		    </form>
+					<hr>
+					
+				</div>
+					
+				<div class="col-md-1 text-center footer-section ">
+					
+					<a href="#top" class="btn btn-lg btn-warning  pl-3 pr-3 ml-5 mt-n5"><i class="fa fa-angle-up"></i></a>
+					
+				</div>
+		
+			</section>
+		
+		
+		
+		<div class="row justify-content-end no-gutters">
+			
+			
+				
+			<div class="col-4 ">
+			
+				<span class="blockquote-footer text-center ">Copyright ©2019 All rights reserved </span>
+				
+				
+			</div>
+
+		
+		</div>
+		
+	
+	</footer>
+	<!------footer end here------>
+	
+	
+</body>
+</html>
